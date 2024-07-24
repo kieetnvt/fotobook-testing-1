@@ -1,0 +1,10 @@
+development:
+  adapter: async
+
+test:
+  adapter: test
+
+production:
+  adapter: redis
+  url: redis://red-cqg8cltds78s73caa71g:6379
+  channel_prefix: fotobook_production
