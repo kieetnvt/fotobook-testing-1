@@ -79,6 +79,6 @@ test:
 #
 production:
   <<: *default
-  database: fotobook_production
-  username: fotobook
-  password: <%= ENV["fotobook_DATABASE_PASSWORD"] %>
+  database: stripe_demo_app
+  username: stripe_demo_app_user
+  password: <%= ENV["STRIPE_DEMO_APP_DATABASE_PASSWORD"] %>
